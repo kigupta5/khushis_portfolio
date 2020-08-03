@@ -1,9 +1,20 @@
 <?php
+/*
+if (isset($_POST['submit'])) {
+  $name = $_POST['name'];
+  $subject = $_POST['subject'];
+  $mailFrom = $_POST['mail'];
+  $message = $_POST['message'];
+
+  $mailTo = "kigupta001@gmail.com"
+
+  mail();
+}
 	
-	/*
+	
 		The Send Mail php Script for Contact Form
 		Server-side data validation is also added for good data validation.
-	*/
+*/
 	
 	$data['error'] = false;
 	
@@ -26,7 +37,7 @@
 		
 		
 		//Place your Email Here
-		$recipient = "kigupta001@gmail.com";
+		$recipient = "kigupta@outlook.com";
 		
 		$mailheader = "From: $email \r\n";
 		
